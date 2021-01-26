@@ -1,0 +1,157 @@
+body {
+  margin: 0 0;
+  font-family: "Avenir Next";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-container {
+  background-color: rgb(36, 41, 46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  font-size: 15px;
+}
+
+.nav-sub-container {
+  margin: 0px 30px;
+}
+
+.nav-link {
+  color: White;
+  font-weight: 600;
+  margin: 0px 0px;
+  padding: 15px;
+}
+.nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.nav-container button {
+  border: 0.5px solid rgba(255,255,255,0.55);
+  border-radius: 5px;
+  background-color: transparent;
+  color: whitesmoke;
+  padding: 12px 20px;
+  margin: 0px 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav-container button:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.header-container {
+  background-color: rgb(248,248,248);
+  margin: 0px 0px;
+  border-bottom: 0.5px solid rgb(220,220,220)
+}
+.header-button {
+  margin: 0px 10px;
+  background-color: transparent;
+  padding: 4px 15px;
+  border: 1px solid rgb(200,200,200);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.header-page-button {
+  margin: 0px 0px;
+  padding: 16px 25px;
+  font-weight: 530;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+}
+
+.org-repo-name {
+  color: #0c64d4;
+}
+
+.issues-container {
+  margin: 30px 30px;
+  border: 1px solid rgb(220,220,220);
+  border-radius: 10px;
+}
+.issue-container {
+  padding: 0px 20px;
+  margin: 0px;
+  border-bottom: 1px solid rgb(220,220,220)
+}
+.issue-container p,
+.issue-container h4 {
+  margin: 8px;
+}
+.issue-container:hover{
+  background-color: rgb(250,250,252);
+}
+
+.paginator-number,
+.paginator-arrow {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin: 0px 5px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+button.paginator-arrow {
+  color: #0c64d4;
+}
+.paginator-number:hover,
+.paginator-arrow:hover {
+  border: 1px solid rgb(220,220,220)
+}
+
+.issueinfo-body {
+  padding: 0px 20px;
+  margin: 0px;
+  border-bottom: 1px solid rgb(220,220,220);
+  border-top: 1px solid rgb(220,220,220)
+}
+
+.d-flex {
+  display: flex;
+}
+.d-inline {
+  display: inline;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+.jc-flex-start {
+  justify-content: flex-start;
+}
+.jc-space-between {
+  justify-content: space-between;
+}
+.jc-center {
+  justify-content:center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.fw-wrap {
+  flex-wrap: wrap;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.ms-default {
+  margin: 0px 40px;
+}
+.mt-big {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
