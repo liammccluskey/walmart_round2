@@ -14,7 +14,7 @@
 
 # Please Note 
 -> You can view other issue pages (aside from walmartlabs/thorax) if you format the url as follows 
--> ###`localhost:3000/issues/${organization_name}/${repo_name}`
+-> ### `localhost:3000/issues/${organization_name}/${repo_name}`
     for any valid (organization_name, repo_name)
 
 -> I did not handle all edge cases properly, so you will receive an error if you try to visit an invalid org/repo url. 
