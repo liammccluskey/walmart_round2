@@ -12,7 +12,7 @@
     ### `npm start`
 7. Now Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-!!! Please Note !!!
+# Please Note 
 -> You can view other issue pages (aside from walmartlabs/thorax) if you format the url as follows 
 -> 'localhost:3000/issues/${organization_name}/${repo_name}' for any valid (organization_name, repo_name)
 
